@@ -16,6 +16,7 @@
 | :--------: | :----------- | :------------------------------------ |
 | ![][Check] | Machine      | iMac Retina 5K 27 Inch 2020           |
 | ![][Check] | Plataform    | Intel Core 10Th Gen Comet Lake        |
+| ![][Check] | CPU          | intel Core i9 10900 ES 2.5GHz         |
 | ![][Check] | Motherboard  | Gigabyte Z490M Gaming X               |
 | ![][Check] | Bios Version | F22 - 07.06.2023                      |
 | ![][Check] | Storage      | SSD Samsung 970 EVO Plus 2TB          |
