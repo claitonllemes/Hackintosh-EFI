@@ -1,5 +1,28 @@
 OpenCore Changelog
 ==================
+
+#### v1.0.0
+- Updated builtin firmware versions for SMBIOS and the rest
+- Switched to Apple silicon GitHub runner for CI, thx @Goooler
+- Added Apple Silicon support in all provided utilities
+- Utilities now require macOS 10.9+ (OpenCore itself still supports macOS 10.4+)
+- Added `AllowRelocationBlock` support for 32-bit version
+- Enabled additional serial logging in non-RELEASE builds of OpenDuet
+- Added missing DxeCore ImageContext HOB in OpenDuet
+- Fixed assert caused by dependency ordering in OpenDuet
+- Prevented assert in normal situation when freeing memory above 4GB in OpenDuet
+- Prevented debug assert reporting that optional Hii protocols are not present in OpenDuet
+- Fixed problem loading non-firmware runtime drivers (e.g. OpenRuntime.efi) in OpenDuet
+- Resolved issue using NOOPT debugging in OpenDuet
+- Fixed alphabetical ordering in Configuration.pdf, thx @leon9078
+
+#### v0.9.9
+- Fixed incorrect warning in ocvalidate
+- Modified `Launchd.command` to recreate its log file if deleted
+- Updated `Launchd.command` to work with macOS Sonoma (re-run `./Launchd.command install` after upgrading to Sonoma)
+- Fixed an incorrectly labelled MacBookPro11,3 model code in `macserial`, thx @Macschrauber
+- Improved macrecovery download logic for slow connections to get chunklist first, thx @scriptod911
+
 #### v0.9.8
 - Updated OpenDuet to allow loading unsigned, unaligned legacy Apple images such as HfsPlusLegacy.efi
 - Fixed CPU frequency calculation on AMD 10h family
