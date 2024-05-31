@@ -57,7 +57,7 @@
 
 - Internal Graphics: `Enabled`
 - Above 4G Decoding: `Enabled`
-- Re-Size BAR Support: `Enabled`
+- Re-Size BAR Support: `Disabled`
   ### **Super IO Configuration:**
   - Serial Port: `Enabled`
   ### **USB Configuration:**
