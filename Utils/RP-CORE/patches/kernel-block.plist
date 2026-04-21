@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key># Universo Hackintosh - Biggest Brazilian Hackintosh Community</key>
+	<string></string>
+	<key># Discord Server: https://hackintosh.one/s/discord</key>
+	<string></string>
+	<key># YouTube Channel: https://hackintosh.one/s/yt</key>
+	<string></string>
+	<key>Kernel</key>
+	<dict>
+		<key>Block</key>
+		<array>
+			<dict>
+				<key>Arch</key>
+				<string>Any</string>
+				<key>Comment</key>
+				<string>Allow IOSkywalk Downgrade - Patch for activate BCM Wireless</string>
+				<key>Enabled</key>
+				<true/>
+				<key>Identifier</key>
+				<string>com.apple.iokit.IOSkywalkFamily</string>
+				<key>MaxKernel</key>
+				<string>25.99.99</string>
+				<key>MinKernel</key>
+				<string>23.0.0</string>
+				<key>Strategy</key>
+				<string>Exclude</string>
+			</dict>
+		</array>
+	</dict>
+</dict>
+</plist>
